@@ -1,0 +1,186 @@
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.page{
+    color: #533738;
+    font-family: Montserrat, Areal, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    max-width: 1400px;
+    background-color: #E5E5E5;
+}
+
+.header{
+    background-color: #EFE6E4;
+}
+
+.header-1{
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.header-2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.site-navigation__link{
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #533738;
+}
+
+.phone{
+    font-size: 16px;
+    line-height: 19.5px;
+    text-decoration: none;
+    color: #533738;
+}
+
+.main{
+    background-color: #EFE6E4;
+}
+
+.promo{
+
+}
+
+.button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #533738;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: #CC8B86;
+    width: 310px;
+}
+
+.about__list{
+    background-color: #8D7370;
+}
+
+.about__term{
+    font-size: 50px;
+    line-height: 62px;
+    color: #fff;
+}
+
+.about__description{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.our-works__more{
+    text-decoration: none;
+    color: #533738;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.team{
+    background-color: #E2C4BA;
+}
+
+.how-we-work{
+    background-color: #E2C4BA;
+}
+
+.reviews__author{
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.form{
+    background-color: #8D7370;
+}
+
+.form__header{
+    color: #fff;
+}
+
+.form__description{
+    color: #fff;
+}
+
+.form__input{
+    border: none;
+    background-color: transparent;
+    color: #F6EDE9;
+    font-size: 18px;
+    line-height: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.form__input::placeholder{
+    color: #F6EDE9;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.form__button{
+    border: none;
+}
+
+.footer{
+    background-color: #EFE6E4;
+}
+
