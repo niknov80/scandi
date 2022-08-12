@@ -76,13 +76,16 @@ img {
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
 
 .header__site-navigation{
-    flex-grow: 1;
     margin-right: 35px;
+}
+
+.header__logo{
+    margin-right: auto;
 }
 
 .logo{
@@ -91,16 +94,17 @@ img {
     align-items: center;
 }
 
-
 .site-navigation__list{
+    max-width: 845px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    flex-wrap: wrap;
     gap: 26px;
 }
 
 .site-navigation__item{
     list-style: none;
+    white-space: nowrap;
 }
 
 .site-navigation__link{
@@ -136,13 +140,8 @@ img {
     position: relative;
     height: 715px;
     margin-bottom: 65px;
-}
-
-.promo__img{
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: 0;
+    background-image: url(../img/common/promo.jpg);
+    background-repeat: no-repeat;
 }
 
 .promo__header{
@@ -271,11 +270,12 @@ img {
 .our-works__wrapper{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 100px;
     padding-right: 100px;
-    gap: 20px;
-    margin-bottom: 30px;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .our-works__figure{
@@ -291,7 +291,6 @@ img {
     right: 0;
     bottom: 10px;
     width: 100%;
-    /*height: 100%;*/
     padding-top: 85px;
     padding-left: 35px;
     padding-right: 35px;
@@ -308,7 +307,7 @@ img {
     line-height: 36px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 22px;
 }
 
 .our-works__text{
@@ -323,6 +322,7 @@ img {
     font-size: 30px;
     line-height: 37px;
     position: relative;
+    margin-left: -65px;
 }
 
 .our-works__more::after{
@@ -389,6 +389,7 @@ img {
 
 .how-we-work__header{
     margin-bottom: 130px;
+    padding-left: 40px;
 }
 
 .how-we-work__list{
@@ -426,7 +427,7 @@ img {
     width: 70px;
     height: 70px;
     background-color: #8D7370;
-    top: -40px;
+    top: -50px;
     left: 50%;
     transform: translateX(-50%) translateY(-40px);
     border-radius: 50%;
@@ -435,7 +436,7 @@ img {
 .how-we-work__item::after{
     position: absolute;
     content: "";
-    top: -60px;
+    top: -70px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
@@ -471,6 +472,8 @@ img {
 
 .reviews__header{
     margin-bottom: 40px;
+    padding-left: 20px;
+    text-align: center;
 }
 
 .reviews__slide{
@@ -567,13 +570,13 @@ img {
 
 .form__header{
     color: #fff;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .form__description{
     color: #fff;
     opacity: 0.6;
-    margin-bottom: 45px;
+    margin-bottom: 49px;
 }
 
 .form__input{
@@ -583,8 +586,15 @@ img {
     font-size: 18px;
     line-height: 30px;
     border-bottom: 1px solid #fff;
-    margin-bottom: 30px;
     width: 100%;
+}
+
+.form__input--name {
+    margin-bottom: 40px;
+}
+
+.form__input--phone{
+    margin-bottom: 30px;
 }
 
 .form__input::placeholder{
@@ -609,7 +619,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 37px 100px;
+    padding: 30px 100px;
 }
 
 .footer__contact{
