@@ -526,7 +526,7 @@ img {
 .reviews__button--back::before{
     content: "";
     display: block;
-    background-image: url(/img/common/arrow-left.svg);
+    background-image: url(../img/common/arrow-left.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 26px;
@@ -542,7 +542,7 @@ img {
 .reviews__button--next::before{
     content: "";
     display: block;
-    background-image: url(/img/common/arrow-right.svg);
+    background-image: url(../img/common/arrow-right.svg);
     background-repeat: no-repeat;
     position: absolute;
     top: 26px;
