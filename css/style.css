@@ -320,7 +320,8 @@ img {
 
 }
 
-.our-works__figcaption:hover{
+.our-works__figcaption:hover,
+.our-works__figcaption:focus{
     opacity: 1;
     background-color: rgba(100, 72, 69, 0.8);
     color: #ffffff;
